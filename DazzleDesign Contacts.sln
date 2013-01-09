@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DazzleDesign Contact Manager", "DazzleDesign Contact Manager\DazzleDesign Contact Manager.csproj", "{207CDCE7-1D64-428E-A674-DCE87B8D6F10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B7A1E904-0E61-4EF5-90B3-323475060049} = {B7A1E904-0E61-4EF5-90B3-323475060049}
+		{73D2C306-00F2-4296-AFE4-7CD40E15D9EE} = {73D2C306-00F2-4296-AFE4-7CD40E15D9EE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DazzleDesign Contact Reader", "DazzleDesign Contact Reader\DazzleDesign Contact Reader.csproj", "{E5AF3FA7-A8AC-4E76-8E1F-974F33E97614}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B7A1E904-0E61-4EF5-90B3-323475060049} = {B7A1E904-0E61-4EF5-90B3-323475060049}
+		{73D2C306-00F2-4296-AFE4-7CD40E15D9EE} = {73D2C306-00F2-4296-AFE4-7CD40E15D9EE}
+		{207CDCE7-1D64-428E-A674-DCE87B8D6F10} = {207CDCE7-1D64-428E-A674-DCE87B8D6F10}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DazzleDesign Contact Startup", "DazzleDesign Contact Startup\DazzleDesign Contact Startup.csproj", "{EE19AFD2-10D6-4DAA-9D53-2B344AA7405C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataRW", "DataRW\DataRW.csproj", "{B7A1E904-0E61-4EF5-90B3-323475060049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mode", "Mode\Mode.csproj", "{73D2C306-00F2-4296-AFE4-7CD40E15D9EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{207CDCE7-1D64-428E-A674-DCE87B8D6F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207CDCE7-1D64-428E-A674-DCE87B8D6F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207CDCE7-1D64-428E-A674-DCE87B8D6F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207CDCE7-1D64-428E-A674-DCE87B8D6F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5AF3FA7-A8AC-4E76-8E1F-974F33E97614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5AF3FA7-A8AC-4E76-8E1F-974F33E97614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5AF3FA7-A8AC-4E76-8E1F-974F33E97614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5AF3FA7-A8AC-4E76-8E1F-974F33E97614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE19AFD2-10D6-4DAA-9D53-2B344AA7405C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE19AFD2-10D6-4DAA-9D53-2B344AA7405C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE19AFD2-10D6-4DAA-9D53-2B344AA7405C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE19AFD2-10D6-4DAA-9D53-2B344AA7405C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A1E904-0E61-4EF5-90B3-323475060049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A1E904-0E61-4EF5-90B3-323475060049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A1E904-0E61-4EF5-90B3-323475060049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A1E904-0E61-4EF5-90B3-323475060049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D2C306-00F2-4296-AFE4-7CD40E15D9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D2C306-00F2-4296-AFE4-7CD40E15D9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D2C306-00F2-4296-AFE4-7CD40E15D9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D2C306-00F2-4296-AFE4-7CD40E15D9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
